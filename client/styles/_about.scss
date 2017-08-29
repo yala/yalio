@@ -1,5 +1,95 @@
 .header {
 	margin: 0;
-	background-image: url($header-pic);
+	background-image: url($header_pic);
+	background-size: cover;
+	background-position: center;
 	color: #FFF;
+	letter-spacing: 1px;
+	.about {
+		margin-top: 60px;
+		display: inline-flex;
+
+		.yala {
+			margin: 0 30px;
+			width: 250px;
+			height: 250px;
+			background-size: cover;
+			background-position: center;
+			background-image: url($prof_pic);
+			position:  fixed;
+		}
+		.bio {
+			margin-right: 250px;
+			left: 300px;
+			width: 100%;
+			margin-bottom: 10px;
+			position: relative;
+			.heading{
+				font: $title-font;
+				h1, h2 {
+					margin-top: 0;
+					display: inline-flex;
+				}
+
+				h1 {
+					font-size: 28px;
+					font-weight: 400;
+					@media screen and (max-width: 850px) {
+						margin-bottom: 10px;
+					}
+				}
+
+				h2 {
+					font-size: 18px;
+					margin-left: 150px;
+					font-weight: 200;
+					@media screen and (max-width: 850px) {
+						display: block;
+						margin-left: 0;
+					}
+				}
+
+			}
+
+			.blurb {
+				margin-right: 60px;
+				p {
+					letter-spacing: 1px;
+					line-height: 30px;
+					padding-right: 60px;
+					font-size: 16px;
+					font-weight: 200;
+				}
+				border-bottom: 1px solid #4E6276;
+			}
+
+
+		}
+	}
+
+
+	.footer {
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 30px;
+		.foot-sec{
+			width: 150px;
+			display: inline-grid;
+			margin: 0 60px;
+			h1 {
+				font-size: 16px;
+				font-weight: 200;
+			}
+			span {
+				display: inline;
+				width: 300px;
+				a {	
+					font-size: 16px;
+					font-weight: 400;
+				}
+			}
+			
+		}
+	}
 }
+
