@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Improving Information Extraction by Acquiring External Evidence with Reinforcement Learning",
+        "authors":"Karthik Narasimhan, Adam Yala, Regina Barzilay",
+        "venue": "Proceedings of EMNLP 2016 (Best Paper Award)",
+        "code": "https://github.com/karthikncode/DeepRL-InformationExtraction"
+
+    },
+        {
+        "title": "Using Machine Learning to Parse Breast Pathology Reports",
+        "authors":"Adam Yala, Regina Barzilay, Laura Salama, Molly Griffin, Grace Sollender, Aditya Bardia, Constance Lehman, Julliette M Buckley, Suzanne B Coopey, Fernanda Polubriaginof, Judy E Garber, Barbara L Smith, Michele A Gadd, Michelle C Specht, Thomas M Gudewicz, Anthony Guidi, Alphonse Taghian, Kevin S Hughes",
+        "venue": "Breast Cancer Research and Treatment Journal 2016"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "rationale": {
+        "title":"Interpretablity",
+        "path":"/",
+        "blurb1":"There has been a flood of recent work on designing neural networks to provide concise rationales for their predictions. These rationales tend to focus on local fidelity. In this work, we aim to build interpretable models that provide global global fidelity, and that can be operationalized to incorperate human feed back. This is on going joint work with ASAPP.",
+        "blurb2" : "",
+        "collaborators": ["Tao Lei", "Regina Barzilay", "ASAPP"],
+        "collaborator-links": ["http://people.csail.mit.edu/taolei/", "https://people.csail.mit.edu/regina/", "https://www.asapp.com/"]
+    },
+    "mammo": {
+        "path":"/mammo",
+        "title":"Mammography",
+        "blurb1":"Today, the vast majority of breast cancers are diagnosed from mammograms. While radiologists are skilled in identifying suspicious areas once cancer is already visible on the image, they have limited capacity in predicting which patients are heading towards cancer diagnosis before mass is formed. Reliably identifying such patients is the crucial first step in preventing cancer development. Substantial research in medical literature confirms that certain changes in the breast tissue are early  precursors of cancer development. However, patterns identified by humans  are not sufficiently strong to act upon them.",
+        "blurb2":"We are aiming to automate these predictions by developing deep learning algorithms that can using longitudinal imaging data with known outcomes.  By reading millions of images (orders of magnitude more than humans can read in their lifetime), machines should be able to assess the likelihood of cancer occurrence in a more accurate fashion.  We are currently collecting a large corpus that will enable us to answer this question. Meanwhile, we are building algorithms that can help radiologists with their daily tasks of mammogram reading.  The deep learning models we developed today can accurately predict breast density  and identify with human accuracy a large fraction of safe screening mammograms.",
+        "collaborators": ["Regina Barzilay", "Antonio Torralba", "Constance Lehman", "Manisha Bahl", "Kyle Swanson"],
+        "collaborator-links": ["https://people.csail.mit.edu/regina/","http://web.mit.edu/torralba/www/","http://www.massgeneral.org/doctors/doctor.aspx?id=19730","http://www.massgeneral.org/doctors/doctor.aspx?id=19887","https://www.linkedin.com/in/kyle-swanson-564ab787/"]
+    },
+    "pathology": {
+        "title":"Pathology",
+        "path":"/pathology",
+        "blurb1":"Pathology reports, individually and in the aggregate, contain immense quantities of information critical to cancer research. Unfortunately, the majority of this information is present as free text, locking the data away from all but the most tenacious researcher. It is extremely difficult to parse out useful data from the free text without significant work by human beings. Therefore, when studies are undertaken, they involve a step of manually extracting relevant information from free-text reports and coding it into structured data. This makes large-scale studies prohibitively expensive as they require well-educated and trained individuals, often at the MD level, to participate in data preparation. Automating this process would not only reduce costs, but would also enable the research community to apply big data analysis methods to clinical research and population based patient care.",
+        "blurb2":"Using modern natural language processing techniques,  we have developed a pathology parser that transforms free-text pathology reports into structured data, extracting over 20 pertinent histological features.  Utilizing this parser, we created a database of 130,000 breast pathology reports for patients that had  biopsy at the Partner’s hospitals in the last three decades.  This is the largest resource of this kind, and it continues to grow by parsing new reports daily. The system is currently deployed at MGH, and it continues to learn from the feedback of physicians who use the system in their research and clinical activities. ",
+        "collaborators": ["Regina Barzilay", "Kevin Hughes", "Adam Yala", "Tally Portnio"],
+        "collaborator-links": ["https://people.csail.mit.edu/regina/","","","","",""]
+    }
+}
