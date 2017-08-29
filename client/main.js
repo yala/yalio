@@ -16,5 +16,11 @@ Template.paperCard.helpers({
 	}
 })
 
+Template.projectCard.helpers({
+	'has_code' : function(){		
+		return this.code != nil
+	}
+})
+
 
 

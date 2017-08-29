@@ -1,0 +1,12 @@
+.projectCard
+	h1.title #{title}
+	span.collab
+		p Joint work with
+		each collab
+			a(href="#{link}") #{name}
+
+	p.descrip #{blurb1}
+	p.descrip #{blurb2}
+
+	+projectsNav
+
