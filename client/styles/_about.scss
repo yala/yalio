@@ -9,6 +9,12 @@
 		margin-top: 60px;
 		display: inline-flex;
 
+		@media screen and (max-width: 580px) {
+			display: block;
+			margin-top: 0;
+			padding-top: 30px;
+		}
+
 		.yala {
 			margin: 0 30px;
 			width: 250px;
@@ -16,7 +22,12 @@
 			background-size: cover;
 			background-position: center;
 			background-image: url($prof_pic);
-			position:  fixed;
+			position:  absolute;
+
+			@media screen and (max-width: 580px) {
+				position: inherit;
+				margin:0 auto;
+			}
 		}
 		.bio {
 			margin-right: 250px;
@@ -24,6 +35,11 @@
 			width: 100%;
 			margin-bottom: 10px;
 			position: relative;
+
+			@media screen and (max-width: 580px) {
+				position: inherit;
+				margin: 0 auto;
+			}
 			.heading{
 				font: $title-font;
 				h1, h2 {
@@ -37,6 +53,10 @@
 					@media screen and (max-width: 850px) {
 						margin-bottom: 10px;
 					}
+					@media screen and (max-width: 580px) {
+						margin:10px auto;
+						padding-left: 60px;
+					}
 				}
 
 				h2 {
@@ -46,6 +66,10 @@
 					@media screen and (max-width: 850px) {
 						display: block;
 						margin-left: 0;
+					}
+					@media screen and (max-width: 580px) {
+						margin:0 auto;
+						padding-left: 60px;
 					}
 				}
 
@@ -59,6 +83,12 @@
 					padding-right: 60px;
 					font-size: 16px;
 					font-weight: 200;
+				}
+
+				@media screen and (max-width: 580px) {
+					position: inherit;
+					margin:0 auto;
+					padding-left: 60px;
 				}
 				border-bottom: 1px solid #4E6276;
 			}

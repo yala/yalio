@@ -1,0 +1,61 @@
+.publications {
+	margin: 0;
+	background-image: url($publications_pic);
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font: $title-font;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+
+
+	h1 {
+		margin-top: 0;
+		margin-left: 40px;
+		color:#4E6276;
+		padding-top: 50px;
+		font-weight: 400;
+		font-size: 28px;
+	}
+	.paper_link {
+		width: 0px;
+		height: 0px;
+		display: inline;
+	}
+	.paper {
+		background-color: #4E6276;
+		margin: 20px 40px;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		display: block;
+
+		h1, p {
+			color: #fff;
+			font-weight: 200;
+			margin-left: 40px;
+		}
+
+		h1 {
+			font-size: 18px;
+			padding-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		.authors {
+			display: block;
+			margin-bottom: 5px;
+			margin-top: 0;
+		}
+
+		.details {
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			p, a {
+				display: inline;
+				font-size: 16px;
+				margin-right: 20px;
+			}
+		}
+	}
+
+}
