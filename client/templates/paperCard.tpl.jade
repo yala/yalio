@@ -1,7 +1,8 @@
-a.paper_link
+a(class="paper_link" href="#{url}")
 	.paper		
-		h1.title Improving Information Extraction by Acquiring External Evidence with Reinforcement Learning
-		p.authors Karthik Narasimhan, Adam Yala, Regina Barzilay 
+		h1.title #{title}
+		p.authors #{authors}
 		span.details
-			p Proceedings of EMNLP 2016
-			a [code]
+			p #{venue}
+			if has_code
+				a(href="#{code}") [code]
