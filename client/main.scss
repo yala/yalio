@@ -1,0 +1,27 @@
+@import 'styles/vars';
+@import 'styles/about';
+
+
+/* CSS declarations go here */
+
+body, .content {
+    margin: 0;
+    background: $background-color ;
+    font-family: $text-font;
+    -webkit-font-size-adjust: 100%;
+    -moz-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+}
+
+* a { 
+    text-decoration: none;
+    color: $link-gray;
+}
+
+
+.content {
+   * a { 
+        text-decoration: none;
+        color: $link-color;
+    }
+}
