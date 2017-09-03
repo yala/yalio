@@ -17,9 +17,14 @@ Template.paperCard.helpers({
 })
 
 Template.projectCard.helpers({
-	'has_code' : function(){		
-		return this.code != nil
-	}
+	'collab' : function(){
+
+		return this.collaborators
+	},
+	'otherProj': function() {
+		var title = this.title
+		return Projects.find({'title':{"$ne":title} })
+	},
 })
 
 
