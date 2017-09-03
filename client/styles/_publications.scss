@@ -23,7 +23,7 @@
 		display: inline;
 	}
 	.paper {
-		background-color: #4E6276;
+		background-color: $dark-blue;
 		margin: 20px 40px;
 		padding-bottom: 20px;
 		margin-bottom: 30px;
@@ -33,6 +33,7 @@
 			color: #fff;
 			font-weight: 200;
 			margin-left: 40px;
+			opacity: 1.0;
 		}
 
 		h1 {
