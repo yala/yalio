@@ -2,7 +2,6 @@ a(class="paper_link" href="#{url}")
 	.paper		
 		h1.title #{title}
 		p.authors #{authors}
-		span.details
-			p #{venue}
-			if has_code
-				a(href="#{code}") [code]
+		p.details #{venue}
+		if has_code
+			a(href="#{code}") [code]

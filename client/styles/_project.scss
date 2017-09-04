@@ -27,12 +27,19 @@
 		max-width: 800px;
 		font-size: 16px;
 		font-weight: 200;
+
+
+		@media screen and (max-width: 580px) {
+			margin-right: 30px;
+		}
 	}
 
 	.collab {
-		display: inline;
+		display: block;
+		margin-left: 40px;
 		p {
 			display: inline;
+			margin: 0;
 		}
 		a {
 			margin-left: 4px;
