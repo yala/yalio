@@ -1,3 +1,4 @@
 node_modules/
+*.swp
 .meteor/local
 .DS_Store
