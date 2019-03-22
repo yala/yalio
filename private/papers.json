@@ -1,5 +1,20 @@
 [
     {
+        "title":"A Deep Learning Mammography-Based Model for Improved Breast Cancer Risk Prediction",
+        "authors":"Adam Yala,  Constance Lehman, Tal Schuster, Tally Portnoi, Regina Barzilay",
+        "venue":"RSNA Radiology 2019 (In Press)",
+        "url":"",
+        "code":"To be released.."
+    },
+    {
+        "title":"Deep Learning Model to Assess Cancer Risk Based on Breast MR Image Alone",
+        "authors":"Tally Portnoi, Adam Yala, Tal Schuster, Regina Barzilay, Brian Dontchos, Leslie Lamb, Constance Lehman",
+        "venue":"American Journal of Roentgenology 2019 (In Press)",
+        "url":"",
+        "code":"To be released.."
+    },
+ 
+    {
         "title":"Mammographic Breast Density Assessment Using Deep Learning: Clinical Implementation",
         "authors":"Constance D. Lehman, Adam Yala, Tal Schuster, Brian Dontchos, Manisha Bahl, Kyle Swanson, Regina Barzilay",
         "venue":"RSNA Radiology 2018",
@@ -18,12 +33,12 @@
         "title": "Using Machine Learning to Parse Breast Pathology Reports",
         "authors":"Adam Yala, Regina Barzilay, Laura Salama, Molly Griffin, Grace Sollender, Constance Lehman, Alphonse Taghian, Kevin S Hughes, et al",
         "venue": "Breast Cancer Research and Treatment Journal 2016",
-        "url": "http://www.biorxiv.org/content/early/2016/10/10/079913.full.pdf+html"
+        "url": "https://link.springer.com/article/10.1007%2Fs10549-016-4035-1"
     },
     {
         "title": "Machine Learning to Parse Breast Pathology Reports in Chinese",
         "authors":"Rong Tang, Li Zhi Ouyang, Clara Li, Molly Griffin, Alphonse Taghian, Barbara Smith, Adam Yala, Regina Barzilay, Kevin S. Hughes",
         "venue": "In Press, Breast Cancer Research and Treatment Journal 2018",
-        "url": "NA"
+        "url": "https://link.springer.com/article/10.1007/s10549-018-4668-3"
     }
 ]
